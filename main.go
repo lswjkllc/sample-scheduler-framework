@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/cnych/sample-scheduler-framework/pkg/plugins"
-	"k8s.io/component-base/logs"
-	"k8s.io/kubernetes/cmd/kube-scheduler/app"
 	"math/rand"
 	"os"
 	"time"
+
+	"github.com/lswjkllc/sample-scheduler-framework/pkg/plugins"
+	"k8s.io/component-base/logs"
+	"k8s.io/kubernetes/cmd/kube-scheduler/app"
 )
 
 func main() {
